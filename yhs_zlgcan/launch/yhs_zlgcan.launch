@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+
+    <node pkg="yhs_zlgcan" type="yhs_zlgcan_node" name="yhs_zlgcan_node" output="screen">
+        <param name="max_speed" value="1.5" />
+        <param name="max_right_steer" value="24.0" />
+        <param name="max_left_steer" value="24.0" />
+        <param name="can_name" value="can0" />
+        <param name="baudrate" value="500k" />
+    </node>
+</launch>
